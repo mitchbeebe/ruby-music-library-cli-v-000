@@ -54,7 +54,7 @@ class Song
     name = file.gsub(".mp3","").split(" - ")
     s = self.find_by_name(name[1])
     s.artist = Artist.find_by_name(name[0])
-    s.genre = Genre.find_name[2])
+    s.genre = Genre.find_by_name([2])
     s
   end
   
