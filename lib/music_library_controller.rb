@@ -23,6 +23,6 @@ class MusicLibraryController
   end
   
   def list_songs
-    Song.all
+    Song.all.sort_by
   end
 end
