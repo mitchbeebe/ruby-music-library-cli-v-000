@@ -30,6 +30,6 @@ class MusicLibraryController
       x += "#{i + 1}. " + x.artist.name + " - " + x.name + " - " + x.genre.name
     end
     puts x
-
   end
+  
 end
